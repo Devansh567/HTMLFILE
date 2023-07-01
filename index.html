@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design</title>
+
+   <!--box icons-->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/cf679319d3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#Contact Me">Contact Me</a>  
+        </nav>
+
+        <div class='bx bxl-windows' id="darkMode-icon"></div>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am </h3>
+            <h1>Devansh Srivastava</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Quaerat similique modi facilis,commodi dolore sed. Laudantium, vitae iure.</p>
+
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-gmail' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-video-recording' ></i>
+                    <h3>Videographer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxl-youtube' ></i>
+                    <h3>Youtuber</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="home.jpg" alt="">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here to Help Your Next Project!</h3>
+            <p>Check out 18 Best Design updates for the top web design & development companies for your needs by reviewing our list & development companies! Find the best web design. Web Design Consulting. Comprehensive Directory. Top Reviewed Design Firms. Types: Enterprise Design Firms, Startup Design Firms, Custom Design Firms, eCommerce Design Firms, and App Design Firms. Custom Web Solution. 24x7 Customer Support. Secure Payment Gateway. Get A Free Web Quote. 24/7 Chat Support. Services: Web Page Design, Landing Page Desion. App development Mobile Website Desion.</p>
+    
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quasi numquam earum explicabo laborum aut tenetur, error iusto ipsum distinctio nihil? Cum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quasi numquam earum explicabo laborum aut tenetur, error iusto ipsum distinctio nihil? Cum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quasi numquam earum explicabo laborum aut tenetur, error iusto ipsum distinctio nihil? Cum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--contact section-->
+   <div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>0987654890</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
